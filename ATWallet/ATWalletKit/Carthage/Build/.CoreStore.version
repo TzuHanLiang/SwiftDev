@@ -1,0 +1,10 @@
+{
+  "commitish" : "7.0.1",
+  "Mac" : [
+    {
+      "name" : "CoreStore",
+      "hash" : "34f3cc2dec9c8092bb39ea59eca93cfcaa17d5809ea75ced0229e1bd7b202345",
+      "swiftToolchainVersion" : "5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+    }
+  ]
+}

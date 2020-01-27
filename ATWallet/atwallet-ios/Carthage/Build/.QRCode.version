@@ -1,0 +1,10 @@
+{
+  "commitish" : "2.1",
+  "iOS" : [
+    {
+      "name" : "QRCode",
+      "hash" : "35773db85074610b9e659eb5b8acf6d9864573cd8bded02f52e4b9462c245579",
+      "swiftToolchainVersion" : "5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+    }
+  ]
+}

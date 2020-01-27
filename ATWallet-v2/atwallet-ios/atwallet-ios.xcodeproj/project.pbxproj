@@ -1,0 +1,1016 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		420598DC22FC1C1C0093DA73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420598DB22FC1C1C0093DA73 /* AppDelegate.swift */; };
+		420598DE22FC1C1C0093DA73 /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420598DD22FC1C1C0093DA73 /* DiscoveryViewController.swift */; };
+		420598E122FC1C1C0093DA73 /* Main_Phone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420598DF22FC1C1C0093DA73 /* Main_Phone.storyboard */; };
+		420598E322FC1C1E0093DA73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420598E222FC1C1E0093DA73 /* Assets.xcassets */; };
+		420598E622FC1C1E0093DA73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420598E422FC1C1E0093DA73 /* LaunchScreen.storyboard */; };
+		420598F122FC1C1E0093DA73 /* atwallet_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420598F022FC1C1E0093DA73 /* atwallet_iosUITests.swift */; };
+		420B93F1230D1F08001DA458 /* Main_Pad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420B93F0230D1F08001DA458 /* Main_Pad.storyboard */; };
+		42101D47230D860F00904091 /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42101D46230D860F00904091 /* DeviceTableViewCell.swift */; };
+		42101D49230E8D1F00904091 /* SideMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42101D48230E8D1F00904091 /* SideMenu.framework */; };
+		42101D4C230E934400904091 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42101D4B230E934400904091 /* MenuViewController.swift */; };
+		42101D54230EA54900904091 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42101D53230EA54900904091 /* AppController.swift */; };
+		42101D56230FDBE900904091 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42101D55230FDBE900904091 /* Localizable.strings */; };
+		421F55802327A27E009A7ACF /* QRCodeReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421F557F2327A27D009A7ACF /* QRCodeReader.framework */; };
+		421F55832327A693009A7ACF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421F55822327A693009A7ACF /* AVFoundation.framework */; };
+		421F55852328B560009A7ACF /* FingerprintVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421F55842328B560009A7ACF /* FingerprintVerificationViewController.swift */; };
+		4235BAE6232150F9008568C2 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4235BAE5232150F9008568C2 /* AppConfig.swift */; };
+		426372C223222746007A5AD6 /* ATWalletKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 426372C123222746007A5AD6 /* ATWalletKit.framework */; };
+		426372C323222746007A5AD6 /* ATWalletKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 426372C123222746007A5AD6 /* ATWalletKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		426E3C1723264B6700981A96 /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426E3C1623264B6700981A96 /* TransactionViewController.swift */; };
+		426E3C1923264B8600981A96 /* CryptocurrencyReceivingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426E3C1823264B8600981A96 /* CryptocurrencyReceivingViewController.swift */; };
+		426E3C1B23264B9600981A96 /* CryptocurrencySendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426E3C1A23264B9600981A96 /* CryptocurrencySendingViewController.swift */; };
+		426E3C1D23267F4300981A96 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426E3C1C23267F4300981A96 /* TransactionTableViewCell.swift */; };
+		426E3C1F2327751500981A96 /* QRCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 426E3C1E2327751500981A96 /* QRCode.framework */; };
+		428A22342330FBCA00754FC4 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428A22332330FBCA00754FC4 /* SettingsTableViewCell.swift */; };
+		428A223623310E8F00754FC4 /* SettingsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428A223523310E8F00754FC4 /* SettingsCollectionViewCell.swift */; };
+		428A22382331102300754FC4 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428A22372331102300754FC4 /* HeaderCollectionReusableView.swift */; };
+		42A9C2042313E4DF00E678D0 /* MenuItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9C2032313E4DF00E678D0 /* MenuItemTableViewCell.swift */; };
+		42A9C20623152F9900E678D0 /* FingerprintEnrollmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9C20523152F9900E678D0 /* FingerprintEnrollmentViewController.swift */; };
+		42A9C20823153A7E00E678D0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9C20723153A7E00E678D0 /* LoginViewController.swift */; };
+		42AD781D2318E8E6002D2DC5 /* WalletInitializationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AD781C2318E8E6002D2DC5 /* WalletInitializationViewController.swift */; };
+		42AD781F2318E911002D2DC5 /* MnemonicCheckingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AD781E2318E911002D2DC5 /* MnemonicCheckingViewController.swift */; };
+		42AD78212318E933002D2DC5 /* WalletRecoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AD78202318E933002D2DC5 /* WalletRecoveryViewController.swift */; };
+		42AD78232318E987002D2DC5 /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AD78222318E987002D2DC5 /* WalletViewController.swift */; };
+		42B080A62322BD9E008A14DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42B080A52322BD9E008A14DD /* InfoPlist.strings */; };
+		42B6A186233505F000A0C71A /* TestnetLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42B6A185233505F000A0C71A /* TestnetLaunchScreen.storyboard */; };
+		42D15D4B23C70D620035B824 /* TokenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D15D4A23C70D620035B824 /* TokenViewController.swift */; };
+		42D15D4D23C70D8B0035B824 /* TokenTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D15D4C23C70D8B0035B824 /* TokenTransactionViewController.swift */; };
+		42D92DB62330B0AE00CBB28C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D92DB52330B0AE00CBB28C /* SettingsViewController.swift */; };
+		42DA8E89231E6D0A00C3D311 /* RecoveryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DA8E88231E6D0A00C3D311 /* RecoveryTableViewCell.swift */; };
+		42DA8E8B231FC92F00C3D311 /* CryptocurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DA8E8A231FC92F00C3D311 /* CryptocurrencyTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		420598ED22FC1C1E0093DA73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 420598D022FC1C1C0093DA73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 420598D722FC1C1C0093DA73;
+			remoteInfo = "atwallet-ios";
+		};
+		42101D51230E9D5700904091 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 420598D022FC1C1C0093DA73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42101D4D230E9B4B00904091;
+			remoteInfo = CarthageLibs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		426372C423222746007A5AD6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				426372C323222746007A5AD6 /* ATWalletKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		420598D822FC1C1C0093DA73 /* AT.Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AT.Wallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		420598DB22FC1C1C0093DA73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		420598DD22FC1C1C0093DA73 /* DiscoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
+		420598E022FC1C1C0093DA73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_Phone.storyboard; sourceTree = "<group>"; };
+		420598E222FC1C1E0093DA73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		420598E522FC1C1E0093DA73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		420598E722FC1C1E0093DA73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		420598EC22FC1C1E0093DA73 /* atwallet-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "atwallet-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		420598F022FC1C1E0093DA73 /* atwallet_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atwallet_iosUITests.swift; sourceTree = "<group>"; };
+		420598F222FC1C1E0093DA73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		420B93F0230D1F08001DA458 /* Main_Pad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main_Pad.storyboard; sourceTree = "<group>"; };
+		42101D46230D860F00904091 /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTableViewCell.swift; sourceTree = "<group>"; };
+		42101D48230E8D1F00904091 /* SideMenu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SideMenu.framework; path = Carthage/Build/iOS/SideMenu.framework; sourceTree = "<group>"; };
+		42101D4B230E934400904091 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		42101D53230EA54900904091 /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		42101D55230FDBE900904091 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		421F557F2327A27D009A7ACF /* QRCodeReader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QRCodeReader.framework; path = Carthage/Build/iOS/QRCodeReader.framework; sourceTree = "<group>"; };
+		421F55822327A693009A7ACF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		421F55842328B560009A7ACF /* FingerprintVerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerprintVerificationViewController.swift; sourceTree = "<group>"; };
+		4235BAE5232150F9008568C2 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		426372C123222746007A5AD6 /* ATWalletKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ATWalletKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		426E3C1623264B6700981A96 /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		426E3C1823264B8600981A96 /* CryptocurrencyReceivingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptocurrencyReceivingViewController.swift; sourceTree = "<group>"; };
+		426E3C1A23264B9600981A96 /* CryptocurrencySendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptocurrencySendingViewController.swift; sourceTree = "<group>"; };
+		426E3C1C23267F4300981A96 /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		426E3C1E2327751500981A96 /* QRCode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QRCode.framework; path = Carthage/Build/iOS/QRCode.framework; sourceTree = "<group>"; };
+		428A22332330FBCA00754FC4 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		428A223523310E8F00754FC4 /* SettingsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCollectionViewCell.swift; sourceTree = "<group>"; };
+		428A22372331102300754FC4 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		42A9C2032313E4DF00E678D0 /* MenuItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemTableViewCell.swift; sourceTree = "<group>"; };
+		42A9C20523152F9900E678D0 /* FingerprintEnrollmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerprintEnrollmentViewController.swift; sourceTree = "<group>"; };
+		42A9C20723153A7E00E678D0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		42AD781C2318E8E6002D2DC5 /* WalletInitializationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletInitializationViewController.swift; sourceTree = "<group>"; };
+		42AD781E2318E911002D2DC5 /* MnemonicCheckingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MnemonicCheckingViewController.swift; sourceTree = "<group>"; };
+		42AD78202318E933002D2DC5 /* WalletRecoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletRecoveryViewController.swift; sourceTree = "<group>"; };
+		42AD78222318E987002D2DC5 /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
+		42B080A52322BD9E008A14DD /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		42B6A185233505F000A0C71A /* TestnetLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TestnetLaunchScreen.storyboard; sourceTree = "<group>"; };
+		42D15D4A23C70D620035B824 /* TokenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenViewController.swift; sourceTree = "<group>"; };
+		42D15D4C23C70D8B0035B824 /* TokenTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenTransactionViewController.swift; sourceTree = "<group>"; };
+		42D92DB52330B0AE00CBB28C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		42DA8E88231E6D0A00C3D311 /* RecoveryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoveryTableViewCell.swift; sourceTree = "<group>"; };
+		42DA8E8A231FC92F00C3D311 /* CryptocurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptocurrencyTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		420598D522FC1C1C0093DA73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426E3C1F2327751500981A96 /* QRCode.framework in Frameworks */,
+				42101D49230E8D1F00904091 /* SideMenu.framework in Frameworks */,
+				421F55832327A693009A7ACF /* AVFoundation.framework in Frameworks */,
+				426372C223222746007A5AD6 /* ATWalletKit.framework in Frameworks */,
+				421F55802327A27E009A7ACF /* QRCodeReader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		420598E922FC1C1E0093DA73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		420598CF22FC1C1C0093DA73 = {
+			isa = PBXGroup;
+			children = (
+				420598DA22FC1C1C0093DA73 /* atwallet-ios */,
+				420598EF22FC1C1E0093DA73 /* atwallet-iosUITests */,
+				420598D922FC1C1C0093DA73 /* Products */,
+				4205991222FC1E000093DA73 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		420598D922FC1C1C0093DA73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				420598D822FC1C1C0093DA73 /* AT.Wallet.app */,
+				420598EC22FC1C1E0093DA73 /* atwallet-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		420598DA22FC1C1C0093DA73 /* atwallet-ios */ = {
+			isa = PBXGroup;
+			children = (
+				420598DB22FC1C1C0093DA73 /* AppDelegate.swift */,
+				42101D53230EA54900904091 /* AppController.swift */,
+				4235BAE5232150F9008568C2 /* AppConfig.swift */,
+				420598DD22FC1C1C0093DA73 /* DiscoveryViewController.swift */,
+				42101D46230D860F00904091 /* DeviceTableViewCell.swift */,
+				42101D4B230E934400904091 /* MenuViewController.swift */,
+				42A9C2032313E4DF00E678D0 /* MenuItemTableViewCell.swift */,
+				42A9C20523152F9900E678D0 /* FingerprintEnrollmentViewController.swift */,
+				42A9C20723153A7E00E678D0 /* LoginViewController.swift */,
+				42AD781C2318E8E6002D2DC5 /* WalletInitializationViewController.swift */,
+				42AD781E2318E911002D2DC5 /* MnemonicCheckingViewController.swift */,
+				42AD78202318E933002D2DC5 /* WalletRecoveryViewController.swift */,
+				42DA8E88231E6D0A00C3D311 /* RecoveryTableViewCell.swift */,
+				42AD78222318E987002D2DC5 /* WalletViewController.swift */,
+				42DA8E8A231FC92F00C3D311 /* CryptocurrencyTableViewCell.swift */,
+				426E3C1623264B6700981A96 /* TransactionViewController.swift */,
+				426E3C1C23267F4300981A96 /* TransactionTableViewCell.swift */,
+				426E3C1823264B8600981A96 /* CryptocurrencyReceivingViewController.swift */,
+				426E3C1A23264B9600981A96 /* CryptocurrencySendingViewController.swift */,
+				421F55842328B560009A7ACF /* FingerprintVerificationViewController.swift */,
+				42D92DB52330B0AE00CBB28C /* SettingsViewController.swift */,
+				428A22332330FBCA00754FC4 /* SettingsTableViewCell.swift */,
+				428A223523310E8F00754FC4 /* SettingsCollectionViewCell.swift */,
+				428A22372331102300754FC4 /* HeaderCollectionReusableView.swift */,
+				42D15D4A23C70D620035B824 /* TokenViewController.swift */,
+				42D15D4C23C70D8B0035B824 /* TokenTransactionViewController.swift */,
+				420598DF22FC1C1C0093DA73 /* Main_Phone.storyboard */,
+				420B93F0230D1F08001DA458 /* Main_Pad.storyboard */,
+				420598E222FC1C1E0093DA73 /* Assets.xcassets */,
+				420598E422FC1C1E0093DA73 /* LaunchScreen.storyboard */,
+				42B6A185233505F000A0C71A /* TestnetLaunchScreen.storyboard */,
+				420598E722FC1C1E0093DA73 /* Info.plist */,
+				42101D55230FDBE900904091 /* Localizable.strings */,
+				42B080A52322BD9E008A14DD /* InfoPlist.strings */,
+			);
+			path = "atwallet-ios";
+			sourceTree = "<group>";
+		};
+		420598EF22FC1C1E0093DA73 /* atwallet-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				420598F022FC1C1E0093DA73 /* atwallet_iosUITests.swift */,
+				420598F222FC1C1E0093DA73 /* Info.plist */,
+			);
+			path = "atwallet-iosUITests";
+			sourceTree = "<group>";
+		};
+		4205991222FC1E000093DA73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				421F55822327A693009A7ACF /* AVFoundation.framework */,
+				421F557F2327A27D009A7ACF /* QRCodeReader.framework */,
+				426E3C1E2327751500981A96 /* QRCode.framework */,
+				426372C123222746007A5AD6 /* ATWalletKit.framework */,
+				42101D48230E8D1F00904091 /* SideMenu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		42101D4D230E9B4B00904091 /* CarthageLibs */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "-c \"if [ ! -e ${SRCROOT}/Carthage/Build/iOS/SideMenu.framework ] || [ ! -e ${SRCROOT}/Carthage/Build/iOS/SideMenu.framework.dSYM ]; then carthage update SideMenu --platform iOS; fi; if [ ! -e ${SRCROOT}/Carthage/Build/iOS/MBProgressHUD.framework ] || [ ! -e ${SRCROOT}/Carthage/Build/iOS/MBProgressHUD.framework.dSYM ]; then carthage update MBProgressHUD --platform iOS; fi; if [ ! -e ${SRCROOT}/Carthage/Build/iOS/QRCode.framework ] || [ ! -e ${SRCROOT}/Carthage/Build/iOS/QRCode.framework.dSYM ]; then carthage update QRCode --platform iOS; fi; if [ ! -e ${SRCROOT}/Carthage/Build/iOS/QRCodeReader.framework ] || [ ! -e ${SRCROOT}/Carthage/Build/iOS/QRCodeReader.framework.dSYM ]; then carthage update QRCodeReader.swift --platform iOS; fi\"";
+			buildConfigurationList = 42101D4E230E9B4B00904091 /* Build configuration list for PBXLegacyTarget "CarthageLibs" */;
+			buildPhases = (
+			);
+			buildToolPath = /bin/sh;
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = CarthageLibs;
+			passBuildSettingsInEnvironment = 1;
+			productName = CarthageLibs;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		420598D722FC1C1C0093DA73 /* atwallet-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 420598F522FC1C1E0093DA73 /* Build configuration list for PBXNativeTarget "atwallet-ios" */;
+			buildPhases = (
+				420598D422FC1C1C0093DA73 /* Sources */,
+				420598D522FC1C1C0093DA73 /* Frameworks */,
+				420598D622FC1C1C0093DA73 /* Resources */,
+				426372C423222746007A5AD6 /* Embed Frameworks */,
+				420B93F8230D4107001DA458 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42101D52230E9D5700904091 /* PBXTargetDependency */,
+			);
+			name = "atwallet-ios";
+			productName = "atwallet-ios";
+			productReference = 420598D822FC1C1C0093DA73 /* AT.Wallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		420598EB22FC1C1E0093DA73 /* atwallet-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 420598F822FC1C1E0093DA73 /* Build configuration list for PBXNativeTarget "atwallet-iosUITests" */;
+			buildPhases = (
+				420598E822FC1C1E0093DA73 /* Sources */,
+				420598E922FC1C1E0093DA73 /* Frameworks */,
+				420598EA22FC1C1E0093DA73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				420598EE22FC1C1E0093DA73 /* PBXTargetDependency */,
+			);
+			name = "atwallet-iosUITests";
+			productName = "atwallet-iosUITests";
+			productReference = 420598EC22FC1C1E0093DA73 /* atwallet-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		420598D022FC1C1C0093DA73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = AuthenTrend;
+				TargetAttributes = {
+					420598D722FC1C1C0093DA73 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					420598EB22FC1C1E0093DA73 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 420598D722FC1C1C0093DA73;
+					};
+					42101D4D230E9B4B00904091 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 420598D322FC1C1C0093DA73 /* Build configuration list for PBXProject "atwallet-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 420598CF22FC1C1C0093DA73;
+			productRefGroup = 420598D922FC1C1C0093DA73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				420598D722FC1C1C0093DA73 /* atwallet-ios */,
+				420598EB22FC1C1E0093DA73 /* atwallet-iosUITests */,
+				42101D4D230E9B4B00904091 /* CarthageLibs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		420598D622FC1C1C0093DA73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42101D56230FDBE900904091 /* Localizable.strings in Resources */,
+				42B080A62322BD9E008A14DD /* InfoPlist.strings in Resources */,
+				420598E622FC1C1E0093DA73 /* LaunchScreen.storyboard in Resources */,
+				420B93F1230D1F08001DA458 /* Main_Pad.storyboard in Resources */,
+				420598E322FC1C1E0093DA73 /* Assets.xcassets in Resources */,
+				42B6A186233505F000A0C71A /* TestnetLaunchScreen.storyboard in Resources */,
+				420598E122FC1C1C0093DA73 /* Main_Phone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		420598EA22FC1C1E0093DA73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		420B93F8230D4107001DA458 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/../ATWalletKit/Carthage/Build/iOS/CoreStore.framework",
+				"$(SRCROOT)/../ATWalletKit/Carthage/Build/iOS/EthereumKit.framework",
+				"$(SRCROOT)/../ATWalletKit/Carthage/Build/iOS/CryptoEthereumSwift.framework",
+				"$(SRCROOT)/../ATWalletKit/Carthage/Build/iOS/CryptoSwift.framework",
+				"$(SRCROOT)/../ATWalletKit/Carthage/Build/iOS/Ed25519Swift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SideMenu.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/MBProgressHUD.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/QRCode.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/QRCodeReader.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/CoreStore.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/EthereumKit.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/CryptoEthereumSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/CryptoSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Ed25519Swift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SideMenu.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/MBProgressHUD.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/QRCode.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/QRCodeReader.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		420598D422FC1C1C0093DA73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D15D4D23C70D8B0035B824 /* TokenTransactionViewController.swift in Sources */,
+				420598DE22FC1C1C0093DA73 /* DiscoveryViewController.swift in Sources */,
+				426E3C1B23264B9600981A96 /* CryptocurrencySendingViewController.swift in Sources */,
+				4235BAE6232150F9008568C2 /* AppConfig.swift in Sources */,
+				42D15D4B23C70D620035B824 /* TokenViewController.swift in Sources */,
+				426E3C1923264B8600981A96 /* CryptocurrencyReceivingViewController.swift in Sources */,
+				42AD78212318E933002D2DC5 /* WalletRecoveryViewController.swift in Sources */,
+				428A223623310E8F00754FC4 /* SettingsCollectionViewCell.swift in Sources */,
+				426E3C1D23267F4300981A96 /* TransactionTableViewCell.swift in Sources */,
+				428A22382331102300754FC4 /* HeaderCollectionReusableView.swift in Sources */,
+				42101D54230EA54900904091 /* AppController.swift in Sources */,
+				42101D47230D860F00904091 /* DeviceTableViewCell.swift in Sources */,
+				42A9C2042313E4DF00E678D0 /* MenuItemTableViewCell.swift in Sources */,
+				42AD78232318E987002D2DC5 /* WalletViewController.swift in Sources */,
+				421F55852328B560009A7ACF /* FingerprintVerificationViewController.swift in Sources */,
+				42A9C20823153A7E00E678D0 /* LoginViewController.swift in Sources */,
+				42D92DB62330B0AE00CBB28C /* SettingsViewController.swift in Sources */,
+				42AD781D2318E8E6002D2DC5 /* WalletInitializationViewController.swift in Sources */,
+				420598DC22FC1C1C0093DA73 /* AppDelegate.swift in Sources */,
+				42101D4C230E934400904091 /* MenuViewController.swift in Sources */,
+				42AD781F2318E911002D2DC5 /* MnemonicCheckingViewController.swift in Sources */,
+				42DA8E8B231FC92F00C3D311 /* CryptocurrencyTableViewCell.swift in Sources */,
+				426E3C1723264B6700981A96 /* TransactionViewController.swift in Sources */,
+				428A22342330FBCA00754FC4 /* SettingsTableViewCell.swift in Sources */,
+				42A9C20623152F9900E678D0 /* FingerprintEnrollmentViewController.swift in Sources */,
+				42DA8E89231E6D0A00C3D311 /* RecoveryTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		420598E822FC1C1E0093DA73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420598F122FC1C1E0093DA73 /* atwallet_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		420598EE22FC1C1E0093DA73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 420598D722FC1C1C0093DA73 /* atwallet-ios */;
+			targetProxy = 420598ED22FC1C1E0093DA73 /* PBXContainerItemProxy */;
+		};
+		42101D52230E9D5700904091 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42101D4D230E9B4B00904091 /* CarthageLibs */;
+			targetProxy = 42101D51230E9D5700904091 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		420598DF22FC1C1C0093DA73 /* Main_Phone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				420598E022FC1C1C0093DA73 /* Base */,
+			);
+			name = Main_Phone.storyboard;
+			sourceTree = "<group>";
+		};
+		420598E422FC1C1E0093DA73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				420598E522FC1C1E0093DA73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		420598F322FC1C1E0093DA73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		420598F422FC1C1E0093DA73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		420598F622FC1C1E0093DA73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_DISPLAY_NAME = AT.Wallet;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 23;
+				DEVELOPMENT_TEAM = D4W56LDDNB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../ATWalletKit/Modules/BRCore/breadwallet-core",
+					"$(PROJECT_DIR)/../ATWalletKit/Modules/BRCore/breadwallet-core/secp256k1",
+				);
+				INFOPLIST_FILE = "atwallet-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LAUNCH_SCREEN = LaunchScreen;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.17;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.authentrend.atwallet-ios";
+				PRODUCT_NAME = AT.Wallet;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		420598F722FC1C1E0093DA73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_DISPLAY_NAME = AT.Wallet;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 23;
+				DEVELOPMENT_TEAM = D4W56LDDNB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../ATWalletKit/Modules/BRCore/breadwallet-core",
+					"$(PROJECT_DIR)/../ATWalletKit/Modules/BRCore/breadwallet-core/secp256k1",
+				);
+				INFOPLIST_FILE = "atwallet-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LAUNCH_SCREEN = LaunchScreen;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.17;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.authentrend.atwallet-ios";
+				PRODUCT_NAME = AT.Wallet;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		420598F922FC1C1E0093DA73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4W56LDDNB;
+				INFOPLIST_FILE = "atwallet-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.authentrend.atwallet-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "atwallet-ios";
+			};
+			name = Debug;
+		};
+		420598FA22FC1C1E0093DA73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4W56LDDNB;
+				INFOPLIST_FILE = "atwallet-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.authentrend.atwallet-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "atwallet-ios";
+			};
+			name = Release;
+		};
+		42101D4F230E9B4B00904091 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3Q84Z372H4;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42101D50230E9B4B00904091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3Q84Z372H4;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		424265E82322378F00EAC765 /* Testnet Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"TESTNET=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG TESTNET";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Testnet Debug";
+		};
+		424265E92322378F00EAC765 /* Testnet Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_DISPLAY_NAME = "AT.Wallet Testnet";
+				ASSETCATALOG_COMPILER_APPICON_NAME = TestnetAppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 23;
+				DEVELOPMENT_TEAM = D4W56LDDNB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../ATWalletKit/Modules/BRCore/breadwallet-core",
+					"$(PROJECT_DIR)/../ATWalletKit/Modules/BRCore/breadwallet-core/secp256k1",
+				);
+				INFOPLIST_FILE = "atwallet-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LAUNCH_SCREEN = TestnetLaunchScreen;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.17;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.authentrend.atwallet-ios-testnet";
+				PRODUCT_NAME = AT.Wallet;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Testnet Debug";
+		};
+		424265EA2322378F00EAC765 /* Testnet Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4W56LDDNB;
+				INFOPLIST_FILE = "atwallet-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.authentrend.atwallet-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "atwallet-ios";
+			};
+			name = "Testnet Debug";
+		};
+		424265EB2322378F00EAC765 /* Testnet Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3Q84Z372H4;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = "Testnet Debug";
+		};
+		424265EC2322379D00EAC765 /* Testnet Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "TESTNET=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = TESTNET;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Testnet Release";
+		};
+		424265ED2322379D00EAC765 /* Testnet Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_DISPLAY_NAME = "AT.Wallet Testnet";
+				ASSETCATALOG_COMPILER_APPICON_NAME = TestnetAppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 23;
+				DEVELOPMENT_TEAM = D4W56LDDNB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../ATWalletKit/Modules/BRCore/breadwallet-core",
+					"$(PROJECT_DIR)/../ATWalletKit/Modules/BRCore/breadwallet-core/secp256k1",
+				);
+				INFOPLIST_FILE = "atwallet-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LAUNCH_SCREEN = TestnetLaunchScreen;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.17;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.authentrend.atwallet-ios-testnet";
+				PRODUCT_NAME = AT.Wallet;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Testnet Release";
+		};
+		424265EE2322379D00EAC765 /* Testnet Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4W56LDDNB;
+				INFOPLIST_FILE = "atwallet-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.authentrend.atwallet-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "atwallet-ios";
+			};
+			name = "Testnet Release";
+		};
+		424265EF2322379D00EAC765 /* Testnet Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3Q84Z372H4;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = "Testnet Release";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		420598D322FC1C1C0093DA73 /* Build configuration list for PBXProject "atwallet-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420598F322FC1C1E0093DA73 /* Debug */,
+				424265E82322378F00EAC765 /* Testnet Debug */,
+				420598F422FC1C1E0093DA73 /* Release */,
+				424265EC2322379D00EAC765 /* Testnet Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		420598F522FC1C1E0093DA73 /* Build configuration list for PBXNativeTarget "atwallet-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420598F622FC1C1E0093DA73 /* Debug */,
+				424265E92322378F00EAC765 /* Testnet Debug */,
+				420598F722FC1C1E0093DA73 /* Release */,
+				424265ED2322379D00EAC765 /* Testnet Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		420598F822FC1C1E0093DA73 /* Build configuration list for PBXNativeTarget "atwallet-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420598F922FC1C1E0093DA73 /* Debug */,
+				424265EA2322378F00EAC765 /* Testnet Debug */,
+				420598FA22FC1C1E0093DA73 /* Release */,
+				424265EE2322379D00EAC765 /* Testnet Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42101D4E230E9B4B00904091 /* Build configuration list for PBXLegacyTarget "CarthageLibs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42101D4F230E9B4B00904091 /* Debug */,
+				424265EB2322378F00EAC765 /* Testnet Debug */,
+				42101D50230E9B4B00904091 /* Release */,
+				424265EF2322379D00EAC765 /* Testnet Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 420598D022FC1C1C0093DA73 /* Project object */;
+}

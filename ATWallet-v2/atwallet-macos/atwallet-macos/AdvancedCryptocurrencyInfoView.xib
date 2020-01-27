@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15702" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15702"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView identifier="AdvancedCryptocurrencyInfoView" id="c22-O7-iKe" customClass="AdvancedCryptocurrencyInfoView" customModule="AT_Wallet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="359" height="98"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="0nL-ZD-Rjb">
+                    <rect key="frame" x="0.0" y="78" width="359" height="20"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="center" placeholderString="Nickname" drawsBackground="YES" id="bF6-FU-u5m">
+                        <font key="font" size="13" name="HelveticaNeue"/>
+                        <color key="textColor" name="TextColor"/>
+                        <color key="backgroundColor" name="InputBackgroundColor"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rZ5-k3-L3J">
+                    <rect key="frame" x="-2" y="42" width="37" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="33" id="Bmn-ef-6dB"/>
+                    </constraints>
+                    <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="m /" usesSingleLineMode="YES" id="fOj-mK-j65">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="TextColor"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="DNz-s8-RRE">
+                    <rect key="frame" x="131" y="43" width="17" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="13" id="cVc-3q-IL7"/>
+                    </constraints>
+                    <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="/" usesSingleLineMode="YES" id="j2S-1W-lU7">
+                        <font key="font" size="13" name="HelveticaNeue"/>
+                        <color key="textColor" name="TextColor"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="j7M-th-lq9">
+                    <rect key="frame" x="146" y="40" width="100" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="OMT-L9-GJn"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="center" placeholderString="Coin Type'" drawsBackground="YES" usesSingleLineMode="YES" id="WZX-7l-mJx">
+                        <font key="font" size="13" name="HelveticaNeue"/>
+                        <color key="textColor" name="TextColor"/>
+                        <color key="backgroundColor" name="InputBackgroundColor"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="BZf-8H-tq9">
+                    <rect key="frame" x="244" y="43" width="17" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="13" id="4ji-EH-O3q"/>
+                    </constraints>
+                    <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="/" usesSingleLineMode="YES" id="ZiV-hK-WXo">
+                        <font key="font" size="13" name="HelveticaNeue"/>
+                        <color key="textColor" name="TextColor"/>
+                        <color key="backgroundColor" name="InputBackgroundColor"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="eUy-Uq-mNk">
+                    <rect key="frame" x="259" y="40" width="100" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="7CE-7B-LFz"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="center" placeholderString="Account'" drawsBackground="YES" id="PkQ-hs-06V">
+                        <font key="font" size="13" name="HelveticaNeue"/>
+                        <color key="textColor" name="TextColor"/>
+                        <color key="backgroundColor" name="InputBackgroundColor"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="M0z-3q-kXl">
+                    <rect key="frame" x="0.0" y="0.0" width="359" height="20"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="center" placeholderString="Timestamp" drawsBackground="YES" id="wgf-Ig-PAW">
+                        <font key="font" size="13" name="HelveticaNeue"/>
+                        <color key="textColor" name="TextColor"/>
+                        <color key="backgroundColor" name="InputBackgroundColor"/>
+                    </textFieldCell>
+                </textField>
+                <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ajG-G1-CwV">
+                    <rect key="frame" x="31" y="37" width="105" height="25"/>
+                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="center" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="uR2-E5-9VM">
+                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                        <menu key="menu" id="w0T-bc-vKC"/>
+                    </popUpButtonCell>
+                </popUpButton>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="M0z-3q-kXl" secondAttribute="trailing" id="0ga-6q-2JT"/>
+                <constraint firstItem="DNz-s8-RRE" firstAttribute="leading" secondItem="ajG-G1-CwV" secondAttribute="trailing" id="553-x2-V6H"/>
+                <constraint firstItem="rZ5-k3-L3J" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="8Q6-hz-gUC"/>
+                <constraint firstAttribute="trailing" secondItem="eUy-Uq-mNk" secondAttribute="trailing" id="9bU-fM-a5U"/>
+                <constraint firstItem="j7M-th-lq9" firstAttribute="leading" secondItem="DNz-s8-RRE" secondAttribute="trailing" id="B24-4i-U3Y"/>
+                <constraint firstItem="eUy-Uq-mNk" firstAttribute="centerY" secondItem="rZ5-k3-L3J" secondAttribute="centerY" id="Bs7-8W-h9g"/>
+                <constraint firstItem="ajG-G1-CwV" firstAttribute="leading" secondItem="rZ5-k3-L3J" secondAttribute="trailing" id="EUv-Vx-b5s"/>
+                <constraint firstItem="rZ5-k3-L3J" firstAttribute="top" secondItem="0nL-ZD-Rjb" secondAttribute="bottom" constant="20" id="IgE-UG-c6W"/>
+                <constraint firstItem="0nL-ZD-Rjb" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="JA1-Ut-OAZ"/>
+                <constraint firstItem="0nL-ZD-Rjb" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="KJq-oi-JyW"/>
+                <constraint firstItem="ajG-G1-CwV" firstAttribute="centerY" secondItem="rZ5-k3-L3J" secondAttribute="centerY" id="Pgn-Gv-wQm"/>
+                <constraint firstAttribute="trailing" secondItem="0nL-ZD-Rjb" secondAttribute="trailing" id="YZM-Er-Vwc"/>
+                <constraint firstItem="j7M-th-lq9" firstAttribute="centerY" secondItem="rZ5-k3-L3J" secondAttribute="centerY" id="akJ-Jz-cOG"/>
+                <constraint firstItem="eUy-Uq-mNk" firstAttribute="leading" secondItem="BZf-8H-tq9" secondAttribute="trailing" id="b1s-Dm-VNN"/>
+                <constraint firstItem="BZf-8H-tq9" firstAttribute="leading" secondItem="j7M-th-lq9" secondAttribute="trailing" id="hYF-Cl-XRQ"/>
+                <constraint firstItem="BZf-8H-tq9" firstAttribute="centerY" secondItem="rZ5-k3-L3J" secondAttribute="centerY" id="j1C-Oc-eH1"/>
+                <constraint firstItem="DNz-s8-RRE" firstAttribute="centerY" secondItem="rZ5-k3-L3J" secondAttribute="centerY" id="jI2-qs-dlQ"/>
+                <constraint firstAttribute="bottom" secondItem="M0z-3q-kXl" secondAttribute="bottom" id="rrK-5G-rGA"/>
+                <constraint firstItem="M0z-3q-kXl" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="vOd-ok-Yzx"/>
+            </constraints>
+            <connections>
+                <outlet property="accountTextField" destination="eUy-Uq-mNk" id="JZX-0k-UPM"/>
+                <outlet property="coinTypeTextField" destination="j7M-th-lq9" id="RKe-hx-8Dn"/>
+                <outlet property="nickNameTextField" destination="0nL-ZD-Rjb" id="jOb-FG-afI"/>
+                <outlet property="purposePupUpButton" destination="ajG-G1-CwV" id="GGE-IN-IiH"/>
+                <outlet property="timestampTexdtField" destination="M0z-3q-kXl" id="fTS-vn-zdN"/>
+            </connections>
+            <point key="canvasLocation" x="140" y="154"/>
+        </customView>
+    </objects>
+    <resources>
+        <namedColor name="InputBackgroundColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextColor">
+            <color red="0.20000000298023224" green="0.20000000298023224" blue="0.20000000298023224" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

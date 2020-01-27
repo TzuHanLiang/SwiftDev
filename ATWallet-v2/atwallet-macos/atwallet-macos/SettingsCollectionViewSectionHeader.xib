@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15400" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15400"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView identifier="SettingsCollectionViewSectionHeader" id="c22-O7-iKe" customClass="SettingsCollectionViewSectionHeader" customModule="AT_Wallet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="560" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="thx-HZ-ht5">
+                    <rect key="frame" x="8" y="2" width="554" height="18"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" alignment="left" title="Header" id="0Bv-Nk-65X">
+                        <font key="font" size="16" name="HelveticaNeue"/>
+                        <color key="textColor" name="TextColor"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="TWW-go-7OZ">
+                    <rect key="frame" x="0.0" y="0.0" width="560" height="1"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="zy5-kb-NYL"/>
+                    </constraints>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="thx-HZ-ht5" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="centerY" id="9BT-ug-Ivw"/>
+                <constraint firstAttribute="trailing" secondItem="TWW-go-7OZ" secondAttribute="trailing" id="CFP-hA-zIB"/>
+                <constraint firstAttribute="trailing" secondItem="thx-HZ-ht5" secondAttribute="trailing" id="krK-nR-Nna"/>
+                <constraint firstItem="thx-HZ-ht5" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="10" id="nvo-go-dMk"/>
+                <constraint firstItem="TWW-go-7OZ" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="u4D-fc-oPX"/>
+                <constraint firstAttribute="bottom" secondItem="TWW-go-7OZ" secondAttribute="bottom" id="vEx-f6-SwX"/>
+            </constraints>
+            <connections>
+                <outlet property="separator" destination="TWW-go-7OZ" id="6ak-wp-zvY"/>
+                <outlet property="titleLabel" destination="thx-HZ-ht5" id="G9Q-0G-V6g"/>
+            </connections>
+            <point key="canvasLocation" x="140" y="41"/>
+        </customView>
+    </objects>
+    <resources>
+        <namedColor name="TextColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

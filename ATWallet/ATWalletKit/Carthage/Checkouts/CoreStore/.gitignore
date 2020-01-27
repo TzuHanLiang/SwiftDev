@@ -1,0 +1,14 @@
+CoreStoreDemo/CoreStoreDemo.xcodeproj/project.xcworkspace/xcuserdata
+CoreStore.xcodeproj/project.xcworkspace/xcuserdata
+CoreStore.xcodeproj/xcuserdata
+CoreStoreDemo/CoreStoreDemo.xcodeproj/xcuserdata
+Carthage/Build
+CoreStore.xcworkspace/xcuserdata
+.DS_Store
+DerivedData
+*.orig
+build
+Playground_macOS.playground/playground.xcworkspace/xcuserdata
+.swiftpm/xcode/package.xcworkspace/xcuserdata
+.swiftpm/xcode/xcuserdata
+Playground_iOS.playground/playground.xcworkspace/xcuserdata

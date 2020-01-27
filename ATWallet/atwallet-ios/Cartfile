@@ -1,0 +1,9 @@
+
+github "jonkykong/SideMenu" "master"
+
+github "jdg/MBProgressHUD" ~> 1.1.0
+
+github "joshuajylin/QRCode"
+
+github "yannickl/QRCodeReader.swift" >= 10.1.0
+

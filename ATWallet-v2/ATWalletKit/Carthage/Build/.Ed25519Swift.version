@@ -1,0 +1,10 @@
+{
+  "commitish" : "1.1",
+  "iOS" : [
+    {
+      "name" : "Ed25519Swift",
+      "hash" : "7466d53e92237b3e24601f88ab9d83f821619e9bcee21386cbb468855d2574ba",
+      "swiftToolchainVersion" : "5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+    }
+  ]
+}

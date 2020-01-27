@@ -1,0 +1,4 @@
+github "jdg/MBProgressHUD" "1.1.0"
+github "jonkykong/SideMenu" "73be8950654773978b661c3021715b05741b3ce6"
+github "joshuajylin/QRCode" "2.1"
+github "yannickl/QRCodeReader.swift" "10.1.1"

@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  atwallet-ios
+
+  Created by Joshua on 2019/9/7.
+  Copyright © 2019 AuthenTrend. All rights reserved.
+*/
+
+"NSBluetoothPeripheralUsageDescription" = "Please allow App to access Bluetooth for discovering and connecting to AT.Wallet";
+"NSCameraUsageDescription" = "Please allow App to access camera for scanning QR code";
+"NSBluetoothAlwaysUsageDescription" = "AT.Wallet App needs using Bluetooth to communicate with AT.Wallet card";

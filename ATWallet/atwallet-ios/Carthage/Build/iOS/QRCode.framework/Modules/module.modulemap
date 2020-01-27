@@ -1,0 +1,11 @@
+framework module QRCode {
+  umbrella header "QRCode.h"
+
+  export *
+  module * { export * }
+}
+
+module QRCode.Swift {
+    header "QRCode-Swift.h"
+    requires objc
+}

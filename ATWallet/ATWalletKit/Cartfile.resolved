@@ -1,0 +1,5 @@
+github "JohnEstropia/CoreStore" "7.0.1"
+github "joshuajylin/CryptoEthereumSwift" "2.0.1"
+github "joshuajylin/Ed25519Swift" "1.1"
+github "joshuajylin/EthereumKit" "2.0.2"
+github "krzyzanowskim/CryptoSwift" "1.2.0"

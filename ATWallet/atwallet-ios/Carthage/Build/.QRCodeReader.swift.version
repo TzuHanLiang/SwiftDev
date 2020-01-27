@@ -1,0 +1,10 @@
+{
+  "commitish" : "10.1.1",
+  "iOS" : [
+    {
+      "name" : "QRCodeReader",
+      "hash" : "645da2f304176ad15c3665a731577865da8655d8e3861298da7b9ec41a47f15b",
+      "swiftToolchainVersion" : "5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+    }
+  ]
+}
